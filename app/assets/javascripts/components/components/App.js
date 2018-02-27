@@ -6,7 +6,7 @@ import Header from './Header'
 const App = () => (
     <div>
         <Header />
-        <h2 className="sub-header">User List</h2>
+        <h2 className="sub-header sub-header-top">User List</h2>
         <UserList />
         <hr />
         <h2 className="sub-header">User Details</h2>

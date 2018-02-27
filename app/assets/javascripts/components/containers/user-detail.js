@@ -16,9 +16,9 @@ class UserDetail extends Component {
                     <img src={this.props.user.thumbnail} />
                 </div>
                 <div style={{ textAlign: 'center' }}>
-                    <h2>{this.props.user.first} {this.props.user.last}</h2>
-                    <h3>Location: {this.props.user.location}</h3>
-                    <h3>Description: {this.props.user.description}</h3>
+                    <h3>{this.props.user.first} {this.props.user.last}</h3>
+                    <h5>Location: {this.props.user.location}</h5>
+                    <h5>Description: {this.props.user.description}</h5>
                 </div>
             </div>
         );

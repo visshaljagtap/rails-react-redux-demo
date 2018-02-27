@@ -9,12 +9,12 @@ class UserList extends Component {
     renderList() {
         return this.props.users.map((user) => {
             return (
-                <h3 className="intro"
+                <h4 className="intro"
                     key={user.id}
                     onClick={() => this.props.selectUser(user)}
                 >
                     {user.first} {user.last}
-                </h3>
+                </h4>
 
             );
         });
