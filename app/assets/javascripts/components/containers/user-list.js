@@ -1,33 +1,8 @@
-import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { selectUser } from '../actions/index'
 import { Link } from 'react-router-dom'
-
-class UserList extends Component {
-
-    renderList() {
-        return this.props.users.map((user) => {
-            return (
-                <h4 className="intro"
-                    key={user.id}
-                    onClick={() => this.props.selectUser(user)}
-                >
-                    {user.first} {user.last}
-                </h4>
-
-            );
-        });
-    }
-
-    render() {
-        return (
-            <div style={{ textAlign: 'center' }}>
-                {this.renderList()}
-            </div>
-        );
-    }
-}
+import UserList from '../components/UserList'
 
 // Get apps state and pass it as props to UserList
 //      > whenever state changes, the UserList will automatically re-render
