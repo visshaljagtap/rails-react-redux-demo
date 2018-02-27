@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { selectUser } from '../actions/index'
+import { Link } from 'react-router-dom'
 
 class UserList extends Component {
 
@@ -14,13 +15,16 @@ class UserList extends Component {
                 >
                     {user.first} {user.last}
                 </h3>
-                );
+
+            );
         });
     }
 
     render() {
         return (
-            <div style={{ textAlign: 'center' }}>{this.renderList()}</div>
+            <div style={{ textAlign: 'center' }}>
+                {this.renderList()}
+            </div>
         );
     }
 }
