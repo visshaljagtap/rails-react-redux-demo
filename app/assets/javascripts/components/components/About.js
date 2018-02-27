@@ -19,7 +19,7 @@ const About = compose(
          */
         googleMapURL:
             "https://maps.googleapis.com/maps/api/js?key=AIzaSyAyesbQMyKVVbBgKVi2g6VX7mop2z96jBo&v=3.exp&libraries=geometry,drawing,places",
-        loadingElement:  <div style={{ height: `100%` }}> </div>,
+        loadingElement: <div style={{ height: `100%` }}> </div>,
         containerElement: <div style={{ height: `700px` }} />,
         mapElement: <div style={{ height: `100%` }} />
     }),
@@ -27,13 +27,13 @@ const About = compose(
     withGoogleMap
 )(props => (
     <div>
-        
+
         <GoogleMap defaultZoom={8} defaultCenter={{ lat: 18.6297811, lng: 73.7997094 }}>
             {props.isMarkerShown && (
                 <Marker position={{ lat: 18.6297811, lng: 73.7997094 }} />
             )}
         </GoogleMap>
-        
+
     </div>
 ));
 
