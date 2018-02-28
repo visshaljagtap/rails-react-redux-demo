@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import React, { Component } from 'react';
-
 class Header extends Component {
     constructor(props) {
         super(props);
@@ -10,7 +9,7 @@ class Header extends Component {
     render() {
         return (
             <div class="navigation">
-                <Link to={`/`} className="logo"><img src="https://cdn-images-1.medium.com/max/1600/1*xkvjbVykgUr8I3nZntymsg.png" /><img src="https://cdn-images-1.medium.com/max/1600/1*BpaqVMW2RjQAg9cFHcX1pw.png" /></Link>
+                <Link to={`/`} className="logo"><img src='react-redux-trans.png' /></Link>
                 <input class="button" type="checkbox" id="button" />
                 <label class="icon" for="button"><span class="navicon"></span></label>
                 <ul class="menu">
