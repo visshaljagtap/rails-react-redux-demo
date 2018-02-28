@@ -9,7 +9,7 @@ class Header extends Component {
     render() {
         return (
             <div class="navigation">
-                <Link to={`/`} className="logo"><img src='rails-react-redux.    png' /></Link>
+                <Link to={`/`} className="logo"><img src='rails-react-redux.png' /></Link>
                 <input class="button" type="checkbox" id="button" />
                 <label class="icon" for="button"><span class="navicon"></span></label>
                 <ul class="menu">
