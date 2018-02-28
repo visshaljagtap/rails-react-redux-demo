@@ -29,9 +29,9 @@ const About = compose(
     <div>
 
         <GoogleMap defaultZoom={8} defaultCenter={{ lat: 18.6297811, lng: 73.7997094 }}>
-            {props.isMarkerShown && (
+            {
                 <Marker position={{ lat: 18.6297811, lng: 73.7997094 }} />
-            )}
+            }
         </GoogleMap>
 
     </div>
