@@ -6,6 +6,7 @@ import { HashRouter, Route, Switch } from 'react-router-dom'
 
 import About from '../components/About'
 import Contact from '../components/Contact'
+import Gallery from '../components/Gallery'
 
 // import thunk from 'redux-thunk';
 // import promise from 'redux-promise';
@@ -26,6 +27,7 @@ export default class Root extends React.Component {
         <HashRouter>
           <Switch>
             <Route exact path="/" component={App} />
+            <Route path="/gallery" component={Gallery} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
           </Switch>
