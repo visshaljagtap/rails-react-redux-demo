@@ -14,9 +14,9 @@ const Gallery = () => (
                     <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/austin-fireworks.jpg" alt />
                 </figure>
             </div>
-        </div>
+       
 
-        <br></br> <br></br>
+        <br></br> 
         <ul id="rig">
             <li>
                 <a class="rig-cell">
@@ -34,14 +34,14 @@ const Gallery = () => (
             </li>
             <li>
                 <a class="rig-cell"  >
-                    <img class="rig-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/taj-mahal_copy.jpg" />
+                    <img class="rig-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/austin-fireworks.jpg" />
                     <span class="rig-overlay"></span>
                     <span class="rig-text">Vivamus ut Felis</span>
                 </a>
             </li>
             <li>
                 <a class="rig-cell"  >
-                    <img class="rig-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/taj-mahal_copy.jpg" />
+                    <img class="rig-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/austin-fireworks.jpg" />
                     <span class="rig-overlay"></span>
                     <span class="rig-text">Curabitur tempus</span>
                 </a>
@@ -62,14 +62,14 @@ const Gallery = () => (
             </li>
             <li>
                 <a class="rig-cell"  >
-                    <img class="rig-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/taj-mahal_copy.jpg" />
+                    <img class="rig-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/austin-fireworks.jpg" />
                     <span class="rig-overlay"></span>
                     <span class="rig-text">pellentesque odio</span>
                 </a>
             </li>
             <li>
                 <a class="rig-cell"  >
-                    <img class="rig-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/taj-mahal_copy.jpg" />
+                    <img class="rig-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/austin-fireworks.jpg" />
                     <span class="rig-overlay"></span>
                     <span class="rig-text">Nam euismod</span>
                 </a>
@@ -90,19 +90,20 @@ const Gallery = () => (
             </li>
             <li>
                 <a class="rig-cell"  >
-                    <img class="rig-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/taj-mahal_copy.jpg" />
+                    <img class="rig-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/austin-fireworks.jpg" />
                     <span class="rig-overlay"></span>
                     <span class="rig-text">Maecenas vitae</span>
                 </a>
             </li>
             <li>
                 <a class="rig-cell"  >
-                    <img class="rig-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/taj-mahal_copy.jpg" />
+                    <img class="rig-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/austin-fireworks.jpg" />
                     <span class="rig-overlay"></span>
                     <span class="rig-text">Proin Scelerisque</span>
                 </a>
             </li>
         </ul>
+    </div>
     </div>
 );
 

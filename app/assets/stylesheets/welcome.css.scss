@@ -65,7 +65,8 @@ body {
   .navigation {
     background-color: #fff;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-    position: fixed;
+    position: absolute;
+    z-index: 99999999;
     width: 100%;
   }
   
@@ -189,7 +190,13 @@ body {
     .navigation .icon {
       display: none;
     }
+
+
   }
+
+  @media only screen and (max-width: 768px) {
+    #slider {  margin: 0 auto; height: 225px !important; width: 100% !important}
+}
 
   @keyframes slidy {
     0% { left: 0%; }
@@ -204,7 +211,8 @@ body {
     }
     
     body { margin: 0; } 
-    div#slider { overflow: hidden; }
+    div#slider { height:400px; overflow: hidden; margin: 0 auto;
+      width: 69%;}
     div#slider figure img { width: 20%; float: left; }
     div#slider figure { 
       position: relative;
