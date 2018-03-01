@@ -1,11 +1,6 @@
 import { Link } from 'react-router-dom'
 import React, { Component } from 'react';
 class Header extends Component {
-    constructor(props) {
-        super(props);
-        console.log('---------In Constructor===========')
-        console.log(this.props);
-    }
     render() {
         return (
             <div className="navigation">
