@@ -16,8 +16,8 @@ class UserDetail extends Component {
                 </div>
                 <div style={{ textAlign: 'center' }}>
                     <h3>{this.props.user.first} {this.props.user.last}</h3>
-                    <h5>Location: {this.props.user.location}</h5>
-                    <h5>Description: {this.props.user.description}</h5>
+                    <h4>Location: {this.props.user.location}</h4>
+                    <h4>Description: {this.props.user.description}</h4>
                 </div>
             </div>
         );
