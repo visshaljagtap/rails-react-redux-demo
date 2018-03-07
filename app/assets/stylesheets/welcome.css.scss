@@ -330,3 +330,9 @@ body {
           width:50%;
       }
   }
+
+  .background {
+    height: 570px;
+    background-size: cover;
+    background-image: image-url('background.jpg');
+}
