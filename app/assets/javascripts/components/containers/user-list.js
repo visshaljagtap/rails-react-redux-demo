@@ -8,7 +8,8 @@ import UserList from '../components/UserList'
 //      > whenever state changes, the UserList will automatically re-render
 function mapStateToProps(state) {
     return {
-        users: state.users
+        users: state.users,
+        allUsers: state.allUsers
     };
 }
 
