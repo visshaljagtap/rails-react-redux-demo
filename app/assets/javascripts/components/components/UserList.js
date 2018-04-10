@@ -3,17 +3,8 @@ import {store} from '../store/Root'
 
 class UserList extends Component {
 
-    componentDidMount() {
-        fetch('https://jsonplaceholder.typicode.com/users')
-            .then(response => response.json())
-            .then(json => {
-                console.log('get api response and calling dispatch')
-                var action = {
-                    type: 'ALL_USERS',
-                    payload: json
-                }
-                store.dispatch(action)
-            })
+    componentWillMount() {
+       this.props.employeesFetch();
     }
 
     renderList() {

@@ -8,7 +8,7 @@ import About from '../components/About'
 import Contact from '../components/Contact'
 import Gallery from '../components/Gallery'
 
-// import thunk from 'redux-thunk';
+import thunk from 'redux-thunk';
 // import promise from 'redux-promise';
 // import createLogger from 'redux-logger';
 import allReducers from '../reducers';
@@ -16,8 +16,8 @@ import App from '../components/App';
 
 // const logger = createLogger();
 export const store = createStore(
-  allReducers
-  // applyMiddleware(thunk, promise, logger)
+  allReducers,
+  applyMiddleware(thunk)
 );
 
 export default class Root extends React.Component {
